@@ -5,8 +5,9 @@ import String.*;
 
 public class run{
     public static void main(String[] args){
-        new TwoSum().run();
-        new AddTwoNumbers().run();
-        new LongestSubstringWithoutRepeatingCharacters().run();
+        //new TwoSum().run();
+        //new AddTwoNumbers().run();
+        //new LongestSubstringWithoutRepeatingCharacters().run();
+        new ZigZagConversion().run();
     }
 }
