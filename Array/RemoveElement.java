@@ -1,6 +1,12 @@
 package Array;
 import java.util.*;
 
+/*
+    Date: 18/11/05
+
+
+*/
+
 public class RemoveElement{
     class Solution {
         public int removeElement(int[] nums, int val) {

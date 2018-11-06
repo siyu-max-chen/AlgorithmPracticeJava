@@ -2,6 +2,12 @@ package String;
 import JavaInterface.JavaRun;
 import java.util.*;
 
+/*
+    Date: 18/11/05
+
+
+*/
+
 public class ImplementstrStr{
     class Solution {
         public int strStr(String haystack, String needle) {

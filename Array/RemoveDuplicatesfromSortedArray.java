@@ -1,6 +1,12 @@
 package Array;
 import java.util.*;
 
+/*
+    Date: 18/11/05
+
+
+*/
+
 public class RemoveDuplicatesfromSortedArray{
     class Solution {
         public int removeDuplicates(int[] nums) {
