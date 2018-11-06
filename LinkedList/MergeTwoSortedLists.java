@@ -5,11 +5,47 @@ import LinkedList.ListNode;
 
 public class MergeTwoSortedLists implements JavaRun{
 
-static class Solution {
-    public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
-        
+    static class Solution {
+        public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
+            if(l1 == null)  return l2;
+            if(l2 == null)  return l1;
+            ListNode large = (l1.val >= l2.val)? l1: l2;
+            ListNode small = (l2.val > l1.val)? l1: l2;
+            ListNode head = small;
+            while(large != null && small != null){
+                if(small.next != null){
+                    if(small.next.val > large.val){
+                        if(large.next != null){
+                            l1 = small.next; l2 = large.next;
+                            if(l2.val >= l1.val){
+                                small.next = large;
+                                large.next = l1;
+                                small = l1; large = l2;
+                            }
+                            else{
+                                small.next = large;
+                                large.next = l2;
+                                small = l2; large = l1;
+                            }
+                        }
+                        else{
+                            l1 = small.next;
+                            small.next = large;
+                            large.next = l1;
+                            return head;
+                        }
+                    }
+                    else
+                        small = small.next;
+                }
+                else{
+                    small.next = large;
+                    return head;
+                }
+            }
+            return head;
+        }
     }
-}
 
 public void run(){
     int[] array1 = {1, 2, 4};
