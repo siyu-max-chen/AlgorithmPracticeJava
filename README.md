@@ -3,9 +3,7 @@ code about simple data structure practice
 
 
 ##### 18/11/05
-21. Merge Two Sorted Lists
-22. Generate Parentheses
-24. Swap Nodes in Pairs
-26. Remove Duplicates from Sorted Array    
-27. Remove Element
-28. Implement strStr() 
+###### Q
+21.Merge Two Sorted Lists(List)  22.Generate Parentheses(Recursion)  24.Swap Nodes in Pairs(List)  26.Remove Duplicates from Sorted Array(Array)  27.Remove Element(Array)  28.Implement strStr(String) 
+###### C
+No comments
