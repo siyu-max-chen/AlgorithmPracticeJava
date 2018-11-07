@@ -4,7 +4,7 @@
 --------------------------------------------------------
 ##### 18/11/05
 ###### Q: 21 22 24 26 27 28
-21.Merge TwoSortedLists(List)22.GenerateParentheses(Recursion)24.SwapNodesinPairs(List)26.RemoveDuplicatesfromSortedArray(Array)27.RemoveElement(Array)28.ImplementstrStr(String)
+21.MergeTwoSortedLists(List) 22.GenerateParentheses(Recursion) 24.SwapNodesinPairs(List) 26.RemoveDuplicatesfromSortedArray(Array) 27.RemoveElement(Array) 28.ImplementstrStr(String)
 ###### My comment: 
 --------------------------------------------------------
 ##### 18/11/06
