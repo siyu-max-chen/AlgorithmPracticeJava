@@ -7,20 +7,18 @@ public class AddTwoNumbers implements JavaRun{
 
 static class Solution {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-        ListNode ans = null; ListNode prev = ans;
-        int sum = 0; ListNode ZERO = new ListNode(0);
+        ListNode head = new ListNode(0); ListNode temp = head;
+        int sum = 0;
         while( (l1!= null) || (l2 != null) || sum > 0){
-            if(l1 == null) l1 = ZERO;
-            if(l2 == null) l2 = ZERO;
+            if(l1 == null) l1 = new ListNode(0);
+            if(l2 == null) l2 = new ListNode(0);
             sum += l1.val + l2.val;
-            if(ans == null) ans = new ListNode(sum % 10);
-            ListNode temp = new ListNode(sum % 10);
-            prev = (prev != null)? prev.next = temp: ans;
-            if(l1 != null) l1 = l1.next;
-            if(l2 != null) l2 = l2.next;
+            temp = temp.next = new ListNode(sum % 10);
+            l1 = l1.next;
+            l2 = l2.next;
             sum /= 10;
         }
-        return ans;
+        return head.next;
     }
 }
 

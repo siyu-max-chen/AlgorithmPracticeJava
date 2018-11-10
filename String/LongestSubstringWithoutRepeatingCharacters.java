@@ -5,7 +5,6 @@ static class Solution {
     public int lengthOfLongestSubstring(String s) {
         int[] Map = new int[256];
         int count = 0; int max = 0; int pivot = 0;
-        
         for(int i = 0; i < s.length(); i++){
             if(Map[s.charAt(i)] > 0){
                 if(count > max)
