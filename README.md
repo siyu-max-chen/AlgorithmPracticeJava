@@ -17,3 +17,13 @@
 1.TwoSum(Search)  2.AddTwoNumbers(List)  3.LongestSubstringWithoutRepeatingCharacters(String)  5.LongestPalindromicSubstring(String)  6.ZigZagConversion(String)  7.ReverseInteger(SimpleAlgorithm)  8.StringtoIntegeratoi(String)  9.PalindromeNumber(SimpleAlgorithm)  12.IntegertoRoman(String)  13.RomantoInteger(String)  14.LongestCommonPrefix(String)  15.ThreeSum(Search)  17.LetterCombinationsofaPhoneNumber(Recursion)
 ###### My comment: 
 --------------------------------------------------------
+##### 18/11/11
+###### Q: 16 18 36
+16.ThreeSum(Search)  18.ThreeSumClosest(Search)  36.ValidSudoku(Array)
+###### My comment: 
+--------------------------------------------------------
+##### 18/11/12
+###### Q: 46 47
+46.Permutations(Backtrack)  47.PermutationsTwo(Backtrack)
+###### My comment: 
+--------------------------------------------------------
