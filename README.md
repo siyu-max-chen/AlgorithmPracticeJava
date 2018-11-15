@@ -27,3 +27,8 @@
 46.Permutations(Backtrack)  47.PermutationsTwo(Backtrack)
 ###### My comment: 
 --------------------------------------------------------
+##### 18/11/13
+###### Q: 38 39 40 49 54
+38.CombinationSum(Backtrack)  39.CombinationSumTwo(Backtrack)  40.CountandSay(Recursion)  49.GroupAnagrams(Array)  54.SpiralMatrix(Array)
+###### My comment: 
+--------------------------------------------------------
