@@ -1,6 +1,9 @@
 # AlgorithmPracticeJava
 *Codes about simple Algorithm practice using Java*
 
+### 38/887
+### 4.28%
+
 --------------------------------------------------------
 ##### 18/11/05
 ###### Q: 21 22 24 26 27 28
