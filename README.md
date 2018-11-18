@@ -1,7 +1,7 @@
 # AlgorithmPracticeJava
 *Codes about simple Algorithm practice using Java*
 
-### 47/887
+### 48/887
 ### 5.27%
 
 --------------------------------------------------------
