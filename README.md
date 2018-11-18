@@ -5,10 +5,13 @@
 ### 5.27%
 
 --------------------------------------------------------
-#### Newest:
+#### Newest Week Record: + 10
 ##### 18/11/16
 ###### Q: 55 56 58 61 66
 55.JumpGame()  56.MergeIntervals()  58.LengthofLastWord()  61.RotateList()  66.PlusOne()
+##### 18/11/17
+###### Q: 62 63 67 69 73
+62.	UniquePaths()  63.UniquePathsTwo()  68.AddBinary()  69.Sqrtx()  73.SetMatrixZeroes()
 
 --------------------------------------------------------
 ##### 18/11/05
@@ -29,11 +32,11 @@
 ##### 18/11/13
 ###### Q: 38 39 40 49 54
 38.CombinationSum(Backtrack)  39.CombinationSumTwo(Backtrack)  40.CountandSay(Recursion)  49.GroupAnagrams(Array)  54.SpiralMatrix(Array)
+
+--------------------------------------------------------
 ##### 18/11/16
 ###### Q: 55 56 58 61 66
 55.JumpGame()  56.MergeIntervals()  58.LengthofLastWord()  61.RotateList()  66.PlusOne()
 ##### 18/11/17
 ###### Q: 62 63 67 69 73
 62.	UniquePaths()  63.UniquePathsTwo()  68.AddBinary()  69.Sqrtx()  73.SetMatrixZeroes()
-
---------------------------------------------------------
