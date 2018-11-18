@@ -5,6 +5,12 @@
 ### 4.85%
 
 --------------------------------------------------------
+#### Newest:
+##### 18/11/16
+###### Q: 55 56 58 61 66
+55.JumpGame()  56.MergeIntervals()  58.LengthofLastWord()  61.RotateList()  66.PlusOne()
+
+--------------------------------------------------------
 ##### 18/11/05
 ###### Q: 21 22 24 26 27 28
 21.MergeTwoSortedLists(List)  22.GenerateParentheses(Recursion)  24.SwapNodesinPairs(List)  26.RemoveDuplicatesfromSortedArray(Array)  27.RemoveElement(Array)  28.ImplementstrStr(String)
@@ -26,4 +32,5 @@
 ##### 18/11/16
 ###### Q: 55 56 58 61 66
 55.JumpGame()  56.MergeIntervals()  58.LengthofLastWord()  61.RotateList()  66.PlusOne()
+
 --------------------------------------------------------
