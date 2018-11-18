@@ -1,8 +1,8 @@
 # AlgorithmPracticeJava
 *Codes about simple Algorithm practice using Java*
 
-### 43/887
-### 4.85%
+### 47/887
+### 5.27%
 
 --------------------------------------------------------
 #### Newest:
@@ -32,5 +32,8 @@
 ##### 18/11/16
 ###### Q: 55 56 58 61 66
 55.JumpGame()  56.MergeIntervals()  58.LengthofLastWord()  61.RotateList()  66.PlusOne()
+##### 18/11/17
+###### Q: 62 63 67 69 73
+62.	UniquePaths()  63.UniquePathsTwo()  68.AddBinary()  69.Sqrtx()  73.SetMatrixZeroes()
 
 --------------------------------------------------------
