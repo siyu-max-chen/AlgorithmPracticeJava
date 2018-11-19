@@ -5,13 +5,16 @@
 ### 5.27%
 
 --------------------------------------------------------
-#### Newest Week Record: + 10
+#### Newest Week Record: + 18
 ##### 18/11/16
 ###### Q: 55 56 58 61 66
 55.JumpGame()  56.MergeIntervals()  58.LengthofLastWord()  61.RotateList()  66.PlusOne()
 ##### 18/11/17
 ###### Q: 62 63 67 69 73
 62.	UniquePaths()  63.UniquePathsTwo()  68.AddBinary()  69.Sqrtx()  73.SetMatrixZeroes()
+##### 18/11/18
+###### Q: 59 64 71 74 75 79 83 88
+59.SpiralMatrixTwo() 64.MinimumPathSum() 71.SimplifyPath() 74.SearchaTwoDMatrix() 75.SortColors() 79.WordSearch 83.RemoveDuplicatesfromSortedList 88.MergeSortedArray
 
 --------------------------------------------------------
 ##### 18/11/05
@@ -40,3 +43,6 @@
 ##### 18/11/17
 ###### Q: 62 63 67 69 73
 62.	UniquePaths()  63.UniquePathsTwo()  68.AddBinary()  69.Sqrtx()  73.SetMatrixZeroes()
+##### 18/11/18
+###### Q: 59 64 71 74 75 79 83 88
+59.SpiralMatrixTwo() 64.MinimumPathSum() 71.SimplifyPath() 74.SearchaTwoDMatrix() 75.SortColors() 79.WordSearch 83.RemoveDuplicatesfromSortedList 88.MergeSortedArray
