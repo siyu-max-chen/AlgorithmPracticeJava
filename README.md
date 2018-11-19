@@ -1,8 +1,8 @@
 # AlgorithmPracticeJava
 *Codes about simple Algorithm practice using Java*
 
-### 48/887
-### 5.27%
+### 56/887
+### 6.29%
 
 --------------------------------------------------------
 #### Newest Week Record: + 18
