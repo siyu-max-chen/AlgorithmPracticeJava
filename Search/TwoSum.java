@@ -4,6 +4,10 @@ import JavaInterface.JavaRun;
 
 public class TwoSum implements JavaRun{
 
+/*
+    题号：1
+    已完成
+*/
 static class Solution {
     public int[] twoSum(int[] nums, int target) {
         // Simple way by using Hashmap 

@@ -4,7 +4,10 @@ import JavaInterface.JavaRun;
 import LinkedList.ListNode;
 
 public class AddTwoNumbers implements JavaRun{
-
+/*
+    题号：2
+    已完成
+*/
 static class Solution {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode head = new ListNode(0); ListNode temp = head;

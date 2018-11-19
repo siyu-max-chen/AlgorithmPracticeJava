@@ -6,6 +6,10 @@ class ReverseInteger{
 /*
     18/11/08
 */
+/*
+    题号：7
+    已完成
+*/
 static class Solution {
     // Using long(a larger data type) to detect the overflow
     public int reverse(int x) {
