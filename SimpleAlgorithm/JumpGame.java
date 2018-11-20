@@ -2,6 +2,12 @@ package SingleAlgorithm;
 import java.util.*;
 import JavaInterface.JavaRun;
 
+/*
+    题号：1
+    已完成
+    更新时间：2018年11月19日
+*/
+
 public class JumpGame{
     class Solution {
         public boolean canJump(int[] nums) {
