@@ -1,11 +1,11 @@
 # AlgorithmPracticeJava
 *Codes about simple Algorithm practice using Java*
 
-### 56/887
-### 6.29%
+### 62/887
+### 6.96%
 
 --------------------------------------------------------
-#### Newest Week Record: + 18
+#### Newest Week Record: + 24
 ##### 18/11/16
 ###### Q: 55 56 58 61 66
 55.JumpGame()  56.MergeIntervals()  58.LengthofLastWord()  61.RotateList()  66.PlusOne()
@@ -15,6 +15,12 @@
 ##### 18/11/18
 ###### Q: 59 64 71 74 75 79 83 88
 59.SpiralMatrixTwo() 64.MinimumPathSum() 71.SimplifyPath() 74.SearchaTwoDMatrix() 75.SortColors() 79.WordSearch 83.RemoveDuplicatesfromSortedList 88.MergeSortedArray
+##### 18/11/19
+###### Q: 77 78 80 81 82
+77.Combinations() 78.Subsets() 80.RemoveDuplicatesfromSortedArrayTwo() 81.SearchinRotatedSortedArrayTwo() 82.RemoveDuplicatesfromSortedListTwo()
+##### 18/11/20
+###### Q: 100
+100.SameTree()
 
 --------------------------------------------------------
 ##### 18/11/05
@@ -46,3 +52,9 @@
 ##### 18/11/18
 ###### Q: 59 64 71 74 75 79 83 88
 59.SpiralMatrixTwo() 64.MinimumPathSum() 71.SimplifyPath() 74.SearchaTwoDMatrix() 75.SortColors() 79.WordSearch 83.RemoveDuplicatesfromSortedList 88.MergeSortedArray
+##### 18/11/19
+###### Q: 77 78 80 81 82
+77.Combinations() 78.Subsets() 80.RemoveDuplicatesfromSortedArrayTwo() 81.SearchinRotatedSortedArrayTwo() 82.RemoveDuplicatesfromSortedListTwo()
+##### 18/11/20
+###### Q: 100
+100.SameTree()
