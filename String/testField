@@ -1,3 +1,0 @@
-        trans[1] = 1;
-        trans['I'] = 1; trans['V'] = 5; trans['X'] = 10; trans['L'] = 50;
-        trans['C'] = 100; trans['D'] = 500; trans['M'] = 1000;
