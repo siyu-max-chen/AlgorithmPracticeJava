@@ -6,6 +6,7 @@
 
 Given a singly linked list where elements are sorted in ascending order, convert it to a height balanced BST.
 For this problem, a height-balanced binary tree is defined as a binary tree in which the depth of the two subtrees of every node never differ by more than 1.
+
 将排序好的list转化为平衡二叉树。因为要求是平衡二叉树，所以最简单的构造方式就是使用“中点”作为二叉树的根，分别构造出他两边的左右树枝。写法用recursion非常简洁与简单！
 
 ``` java
@@ -42,7 +43,6 @@ Given a sorted linked list, delete all nodes that have duplicate numbers, leavin
 类似之前的简单题目，这次的要求是所有重复的节点全部删除并不保留。
 
 思路和之前的类似，无非就是判断这个节点到底是不是重复节点？只需要加一些判定条件，依然可以用 recursion 的方式实现。
-
 
 ```java
 class Solution {
