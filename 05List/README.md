@@ -20,7 +20,7 @@ public class ListNode {
 - 定义指针 p 和 q，一个指针总是在另一个指针的 k 距离后面
 - 定义指针 left 和 right（类似BS），用来遍历（但在链表中不常用，是一种思路）
 
-##### 1.1 (slow n fast)[https://github.com/chsyisgood/AlgorithmPracticeJava/blob/master/05List/slownfast.md]
+##### 1.1 [slow n fast](https://github.com/chsyisgood/AlgorithmPracticeJava/blob/master/05List/slownfast.md)
 slow 和 fast 是两个不同速度的指针，这种设计可以方便我们在 one pass 的情况下找到链表中的“特殊点”：比如中点（1/2处）或者任意比例的点（1/3 处）。
 而且，通过合理设计代码的先后，可以选择到底是“小中点”还是“大中点”，有道题挺蛋疼的就是有这样的细致要求。
 
