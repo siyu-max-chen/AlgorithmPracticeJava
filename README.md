@@ -15,7 +15,7 @@
 数组题目，也包含一些矩阵题目
 ###### 4. String
 字符串的题目
-###### 5. Linked List
+###### 5. [Linked List](https://github.com/chsyisgood/AlgorithmPracticeJava/tree/master/05List)
 链表题目，题目和内容都比较少
 ###### 6. Tree
 树的题目，这里主要以BS 和 BST为主
