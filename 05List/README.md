@@ -26,7 +26,7 @@ slow 和 fast 是两个不同速度的指针，这种设计可以方便我们在
 
 题目：
 
-##### 1.2 k dist 
+##### 1.2 [k dist](https://github.com/chsyisgood/AlgorithmPracticeJava/blob/master/05List/kdist.md) 
 这类没啥好说的，就是一开始指针q在p的后面，这样如果q到达终点后，p必然指向距离终点前k距离的结点上。部分题目需要 one pass可以用到，很局限。
 
 题目：
@@ -35,7 +35,7 @@ slow 和 fast 是两个不同速度的指针，这种设计可以方便我们在
 left 和 right 作为左右指针最常见在于“分治法”。而分治法中一个典型就是Binary Search。当然我印象中 3 sum 也是使用这种【思路】的题目。总之需要心中有数，这类可以方便我们从两头缩小范围
 
 --------------------------------------------------------
-#### 2. 递归  Recursion
+#### 2. [递归  recursion](https://github.com/chsyisgood/AlgorithmPracticeJava/blob/master/05List/recursion.md)
 其实怎么说，递归只是一种coding的方式，在链表题目中可以让代码更加的简洁、漂亮。这算是递归的最简单的练习吧。
 
 
