@@ -13,7 +13,7 @@ Reverse a linked list from position m to n. Do it in one-pass.
 #### [19 Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
 ```
 Given a linked list, remove the n-th node from the end of list and return its head.
-**Follow up:** do that in one pass
+Follow up: do that in one pass
 从结尾处删除第 N 个指针节点 
 ```
 我们只需要获得我们需要的这个节点就行了，然后很容易就能删除掉。思路就是使用 p 和 q，q 默认为 p 后面 第 N 个节点，那么当 q 到达终点，自然p 就是我们需要的节点。
