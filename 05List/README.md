@@ -38,4 +38,7 @@ left 和 right 作为左右指针最常见在于“分治法”。而分治法�
 #### 2. [递归  recursion](https://github.com/chsyisgood/AlgorithmPracticeJava/blob/master/05List/recursion.md)
 其实怎么说，递归只是一种coding的方式，在链表题目中可以让代码更加的简洁、漂亮。这算是递归的最简单的练习吧。
 
+--------------------------------------------------------
+#### 3. 反转链表
+比较基础的操作，复杂度O(N)。只需要从头开始用变量记录即可。
 

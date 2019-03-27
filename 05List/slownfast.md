@@ -1,10 +1,11 @@
-# two pointer 相关
+# slownfast 相关
 
 --------------------------------------------------------
 #### 148 Sort List
-Sort a linked list in O(n log n) time using constant space complexity.
+``` 
+Sort a linked list in O(nlogn) time using constant space complexity.
 将一个无序的链表进行排序，要求一定的时间复杂度和空间复杂度
-
+```
 这题目可以说是非常非常经典的题目，我们知道对于排序而言，最好的平均时间复杂度就是nlogn，对于数组如此对于链表依旧如此。数组中我们用快排 quick sort，而在链表中，更好实现的方式就是 合并排序 merge sort。这个题目简直就是为了合并排序量身定做的！
 
 
