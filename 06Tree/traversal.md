@@ -1,41 +1,104 @@
-# Linked List  链表
-*“男人最重要的是持久。”*
+# traversal 树的遍历
+--------------------------------------------------------
+树的遍历需要了解代码的写法、根据已有的树木判断出经过不同顺序得到的次序。
+preorder, inorder, postorder, level, vertical
+假设树木如下：
+这几种遍历的时间复杂度都是O(N)
 
 --------------------------------------------------------
-#### 总述
-链表的题目比较少，大致因为题目类型比较单一而且题目相对简单。链表的题目可能唯一的trick就是使用【**双指针**】，并且大多数题目用 **recursion** 的方式可以轻松解决。唯一要注意的陷阱是**指针指向**有些情况下必须**重置**（当然部分tree的题目也会涉及！）。这里的链表通常指的是最简单的**只含有头部**的**单向链表**，双向链表和包含尾部的链表这里很少涉及，但是在某些题目例如设计一些数据结构时可以用到，可以减少遍历的复杂度！
-- 基础代码
+#### preorder traversal
 ``` java
-public class ListNode {
-     int val;
-     ListNode next;
-     ListNode(int x) { val = x; }
+得到的结果：[]
+private List<Integer> res = new ArrayList<>();
+private void preorder(TreeNode p){
+    res.add(p.val);
+    if(p.left != null)
+        preorder(p.left);
+    if(p.right != null)
+        preorder(p.right);
+}
+public List<Integer> preorderTraversal(TreeNode root) {
+    if(root == null)  return res;
+    preorder(root);
+    return res;
 }
 ```
+相关题目：
+ [144 Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)
 
 --------------------------------------------------------
-#### 1. 双指针  two pointers
-所谓双指针，一般情况下有以下几种不同的理解：
-- 定义 slow 和 fast 两种不同**速度**的指针，每次循环他们移动的次数有差别
-- 定义指针 p 和 q，一个指针总是在另一个指针的 k 距离后面
-- 定义指针 left 和 right（类似BS），用来遍历（但在链表中不常用，是一种思路）
-
-##### 1.1 [slow n fast](https://github.com/chsyisgood/AlgorithmPracticeJava/blob/master/05List/slownfast.md)
-slow 和 fast 是两个不同速度的指针，这种设计可以方便我们在 one pass 的情况下找到链表中的“特殊点”：比如中点（1/2处）或者任意比例的点（1/3 处）。
-而且，通过合理设计代码的先后，可以选择到底是“小中点”还是“大中点”，有道题挺蛋疼的就是有这样的细致要求。
-
-题目：
-
-##### 1.2 [k dist](https://github.com/chsyisgood/AlgorithmPracticeJava/blob/master/05List/kdist.md) 
-这类没啥好说的，就是一开始指针q在p的后面，这样如果q到达终点后，p必然指向距离终点前k距离的结点上。部分题目需要 one pass可以用到，很局限。
-
-题目：
-
-##### 1.3 left n right
-left 和 right 作为左右指针最常见在于“分治法”。而分治法中一个典型就是Binary Search。当然我印象中 3 sum 也是使用这种【思路】的题目。总之需要心中有数，这类可以方便我们从两头缩小范围
+#### inorder traversal
+``` java
+得到的结果：[]
+private List<Integer> res = new ArrayList<>();
+private void inorder(TreeNode p){
+    if(p.left != null)
+        inorder(p.left);
+    res.add(p.val);
+    if(p.right != null)
+        inorder(p.right);
+}
+public List<Integer> inorderTraversal(TreeNode root) {
+    if(root == null) return res;
+    inorder(root);
+    return res;
+}
+```
+相关题目：
+[94 Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)
 
 --------------------------------------------------------
-#### 2. [递归  recursion](https://github.com/chsyisgood/AlgorithmPracticeJava/blob/master/05List/recursion.md)
-其实怎么说，递归只是一种coding的方式，在链表题目中可以让代码更加的简洁、漂亮。这算是递归的最简单的练习吧。
+#### postorder traversal
+``` java
+得到的结果：[]
+private List<Integer> res = new ArrayList<>();
+private void postorder(TreeNode p){
+    if(p.left != null)
+        postorder(p.left);
+    if(p.right != null)
+        postorder(p.right);
+    res.add(p.val);
+}
+public List<Integer> postorderTraversal(TreeNode root) {
+    if(root == null)  return res;
+    postorder(root);
+    return res;
+}
+```
+相关题目：
+[145 Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/)
 
-
+--------------------------------------------------------
+#### level order traversal
+``` java
+得到的结果：[]
+class Solution {
+    private List<List<Integer>> res = new ArrayList<>();
+    private List<Integer> tempList;
+    private List<TreeNode> tempNodeList;
+    public List<List<Integer>> levelOrder(TreeNode root) {
+        if(root == null)
+            return res;
+        tempNodeList = new ArrayList<>();
+        tempNodeList.add(root);
+        tempList = new ArrayList<>();
+        while(!tempNodeList.isEmpty()){
+            int len = tempNodeList.size();
+            for(int i = 0; i < len; ++i){
+                TreeNode p = tempNodeList.get(0);
+                tempList.add(p.val);
+                if(p.left != null)
+                    tempNodeList.add(p.left);
+                if(p.right != null)
+                    tempNodeList.add(p.right);
+                tempNodeList.remove(0);
+            }
+            res.add(new ArrayList<>(tempList));
+            tempList.clear();
+        }
+        return res;
+    }
+}
+```
+相关题目：
+[102 Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
