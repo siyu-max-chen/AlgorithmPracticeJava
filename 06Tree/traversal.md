@@ -71,6 +71,7 @@ public List<Integer> postorderTraversal(TreeNode root) {
 --------------------------------------------------------
 #### level order traversal
 ``` java
+使用 Queue 可以轻松完成层级遍历。代码可以说是 BFS 的最经典的写法！
 得到的结果：[]
 class Solution {
     private List<List<Integer>> res = new ArrayList<>();
@@ -102,3 +103,4 @@ class Solution {
 ```
 相关题目：
 [102 Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
+
