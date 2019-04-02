@@ -20,7 +20,7 @@ public class ListNode {
 ListNode p = head, q = p.next;
 while(q != null){
     ListNode temp = q.next; // 保留节点
-    q.next = p;
+    q.next = p;     // 将链表关系反转 p -> q 变为 q -> p
     p = q; q = temp;    // pq指向下两个节点
 }
 head.next = null;   // 不要忘记重置
@@ -38,7 +38,7 @@ return p;
 slow 和 fast 是两个不同速度的指针，这种设计可以方便我们在 one pass 的情况下找到链表中的“特殊点”：比如中点（1/2处）或者任意比例的点（1/3 处）。
 而且，通过合理设计代码的先后，可以选择到底是“小中点”还是“大中点”，有道题挺蛋疼的就是有这样的细致要求。
 
-##### 例题：148 Sort List**
+##### 例题：148 Sort List
 ``` 
 Sort a linked list in O(n log n) time using constant space complexity.
 将一个无序的链表进行排序，要求一定的时间复杂度和空间复杂度
