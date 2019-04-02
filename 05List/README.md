@@ -14,8 +14,9 @@ public class ListNode {
 ```
 
 - 反转链表
-比较基础的操作，复杂度O(N)/O(1)。只需要从头开始用变量记录即可。
 ``` java 
+比较基础的操作，复杂度O(N)/O(1)。只需要从头开始用变量记录即可。
+
 ListNode p = head, q = p.next;
 while(q != null){
     ListNode temp = q.next; // 保留节点
@@ -25,7 +26,6 @@ while(q != null){
 head.next = null;   // 不要忘记重置
 return p;
 ```
-
 
 ---
 #### 1. 双指针  two pointers
