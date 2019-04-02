@@ -41,4 +41,15 @@ left 和 right 作为左右指针最常见在于“分治法”。而分治法�
 --------------------------------------------------------
 #### 3. 反转链表
 比较基础的操作，复杂度O(N)。只需要从头开始用变量记录即可。
+``` java 
+ListNode p = head, q = p.next;
+while(q != null){
+    ListNode temp = q.next; // 保留节点
+    q.next = p;
+    p = q; q = temp;    // pq指向下两个节点
+}
+head.next = null;   // 不要忘记重置
+return p;
+```
+
 
