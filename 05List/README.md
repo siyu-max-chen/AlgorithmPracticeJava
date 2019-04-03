@@ -147,14 +147,12 @@ class Solution {
     }
 }
 ```
-
 ##### 例题：82 Remove Duplicates from Sorted List II
 ```
 Given a sorted linked list, delete all nodes that have duplicate numbers, leaving only distinct numbers from the original list.
 类似之前的简单题目，这次的要求是所有重复的节点全部删除并不保留。
 ```
 思路和之前的类似，无非就是判断这个节点到底是不是重复节点？只需要加一些判定条件，依然可以用 recursion 的方式实现。
-
 
 ```java
 class Solution {
@@ -187,3 +185,22 @@ class Solution {
 }
 ```
 
+---
+### 3. Loop/Cycle  环
+有些链表题目中提示该链表某个部位可能存在环，这时我们需要了解并使用"Floyd-Cycle-Detection-Algorithm"。
+该理论主要分为两部分：
+- 判断环的存在：使用slow n fast的双指针，开始都指向头部节点，fast的速度是slow的两倍，如果 slow 和 fast 可以相遇则说明存在环；若最后fast指向null则不存在换
+- 判断环的起点：同上，在相遇点的时刻，让一点指针指向head，另一个指针指向该点，那么当两个指针再次相遇的点就是“环的开始”。
+- 对于某些数组形式的问题，该理论同样适用。
+##### 例题：142 Linked List Cycle II
+```
+Given a linked list, return the node where the cycle begins. If there is no cycle, return null.
+Note: Do not modify the linked list.
+寻找环的开始节点。
+```
+- 不太满足的做法：
+使用一个 HashSet<ListNode>，不断遍历链表，当出现set里已经有重复的值的时候返回该值，当没有包含时则返回 null
+- 满足的做法：
+使用 Floyd-Cycle-Detection-Algorithm
+
+---
