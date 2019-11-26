@@ -1,5 +1,5 @@
 # Algorithm Practice Java
-*将自己做过的leetcode的题目分类并简单总结一下思路和算法*
+*Leetcode's Implementation Review*
 
 ##### 前面的话
 从去年至今已经刷了一定量的lc的题目，但是一直没有提笔去总结遇到的题目的算法和对于题目的思考，于是我决定去尽快开始总结以便有所成长，其中大部分是自己对于题目的简单感悟。
@@ -33,9 +33,34 @@
 可恶的Dp的题目
 ###### DFS and BFS
 以这两种为主的题目
+=======
+--------------------------------------------------------
+##### Preface
+Talk is cheap, show me your data structure
 
 --------------------------------------------------------
-##### 结束
-暂时就这些，yesterday you said tomorrow, so just do it
+##### Catalog
+###### 1. Basic
+Very basic
+###### 2. Math
+something related to Math
+###### 3. Array
+Everything is an Array
+###### 4. String
+Subcomponent of array actually
+###### 5. [Linked List](https://github.com/chsyisgood/AlgorithmPracticeJava/tree/master/05List)
+
+###### 6. Tree
+ADT constructed by array
+###### 7. Data Structure
+basic data strucuture
+###### 8. DP
+
+###### 9. DFS / BFS
+Iteractive thinking
+
+--------------------------------------------------------
+##### End
+Yesterday you said tomorrow, so just do it
 
 
